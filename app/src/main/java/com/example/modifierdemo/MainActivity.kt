@@ -52,7 +52,7 @@ fun DemoScreen(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            "Hello Compose",
+            "Hello Compose!",
             mymodifier.then(secondModifier),
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold
